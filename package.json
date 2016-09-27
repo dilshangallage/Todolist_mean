@@ -4,7 +4,11 @@
   "description": "creative",
   "main": "app.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "jasmine-node spec"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> dce4ba19a4db040416cbc910331b0ff2a9e97de8
   },
   "keywords": [
     "any"
@@ -13,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
+<<<<<<< HEAD
     "promise": "^7.1.1",
     "request": "^2.75.0"
   },
@@ -27,4 +32,8 @@
     "url": "https://github.com/dilshangallage/test/issues"
   },
   "homepage": "https://github.com/dilshangallage/test#readme"
+=======
+    "promise": "^7.1.1"
+  }
+>>>>>>> dce4ba19a4db040416cbc910331b0ff2a9e97de8
 }
