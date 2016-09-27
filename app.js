@@ -40,8 +40,4 @@ app.post('/archive',api.archive);
 
 app.listen(3000,function(){
     console.log("Started on PORT 3000");
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> dce4ba19a4db040416cbc910331b0ff2a9e97de8
