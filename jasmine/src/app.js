@@ -7,8 +7,6 @@ angular.module('app', [])
       $scope.strength = 'strong';
     } else if (size > 3) {
       $scope.strength = 'medium';
-    } else if (size >1) {
-      $scope.strength = 'weak';
     }else {
       $scope.strength = 'hell';
     }
