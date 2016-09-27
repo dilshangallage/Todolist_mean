@@ -1,14 +1,17 @@
-angular.module('app', [])
-.controller('PasswordController', function PasswordController($scope) {
-  $scope.password = '';
-  $scope.grades = function() {
-    var size = $scope.password.length;
-    if (size > 8) {
-      $scope.strength = 'strong';
-    } else if (size > 3) {
-      $scope.strength = 'medium';
+var app = angular.module('app', []);
+//angular.module('app', [])
+app.controller('priorityController', function priorityController($scope) {
+  //$scope.priority = '';
+  $scope.selectdate=0;
+  $scope.currentdate=0;
+  $scope.gap = function() {
+    var dif =$scope.selectdate-$scope.currentdate;
+    if (dif < 8) {
+      $scope.priority = 'High';
+    } else if (dif <15) {
+      $scope.priority = 'Normal';
     }else {
-      $scope.strength = 'hell';
+      $scope.priority = 'Low';
     }
   };
 });
